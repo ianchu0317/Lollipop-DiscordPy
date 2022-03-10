@@ -1,4 +1,5 @@
 # Lollipop discord bot
+![logo(1)](https://user-images.githubusercontent.com/71509578/157582893-fe6d250c-5449-4f1e-bdf9-0010d9735133.jpg)
 
 ## Usage
 ```
