@@ -6,6 +6,7 @@ from random import choice
 
 # GET API Key, website : https://brainshop.ai/
 # GLOBAL variables
+API_KEY = 'API KEY HERE'
 ID_LIST = dict()
 PATH = getcwd() + '/src/Chat'
 ALL_CHARS = list(ascii_lowercase + digits)
@@ -49,6 +50,7 @@ def checkID(userDiscordId):
 def getResponse(userDiscordId, message):
     checkID(userDiscordId)
     global URL
-    URL = 'http://api.brainshop.ai/get?bid=163751&key=HsuOLcb3Xz2VcFB3&uid={}&msg={}'.format(ID_LIST.get(userDiscordId), "%20".join(message))
+    global API_KEY
+    URL = 'http://api.brainshop.ai/get?bid=163751&key={}&uid={}&msg={}'.format(API_KEY, ID_LIST.get(userDiscordId), "%20".join(message))
     r = requests.get(URL)
     return r.json()["cnt"]
