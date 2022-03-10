@@ -1,7 +1,8 @@
 import requests
 from random import randrange
 
-API_KEY = '96ab9c0a0ff64e8f981301b8f598140f'
+# GET API KEY HERE https://newsapi.org/
+API_KEY = 'API KEY HERE'
 USAGE = 'News.py <query> <searchIn> <language> <category>'
 URL = 'https://newsapi.org/v2/everything'
 
