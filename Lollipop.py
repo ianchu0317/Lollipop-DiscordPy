@@ -7,6 +7,8 @@ from src.Chat import Chatbot
 from src.News import News
 from src import Info
 
+# GET BOT TOKEN in https://discord.com/developers/
+DISCORD_BOT_TOKEN = 'DISCORD BOT TOKEN HERE'
 client = discord.Client()
 command_list = ['$chat', '$img', '$random', '$help', '$waifu', '$news', '$meme']
 
@@ -52,4 +54,4 @@ def find_response(message):
 		return News.getNews(msg[1], msg[2], msg[3])
 
 if __name__ == '__main__':
-	client.run('OTQwNjg1MDA5MDAwNDk3MTUy.YgK_Lw.FCd0M1YxAxXFtnVhc7aA3OyoX20')
+	client.run(DISCORD_BOT_TOKEN)
