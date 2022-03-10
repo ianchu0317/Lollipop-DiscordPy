@@ -33,7 +33,7 @@ Add to line 6 of [get image script](https://github.com/ianchu0317/Lollipop-Disco
 
 ### Newsapi API KEY
 Get API [here](https://newsapi.org/). <br>
-Add to line 5 of [get news script](): <br>
+Add to line 5 of [get news script](https://github.com/ianchu0317/Lollipop-DiscordPy/blob/main/src/News/News.py): <br>
 ![image](https://user-images.githubusercontent.com/71509578/157580796-16610dba-cee1-489c-99bd-444be27da31d.png)
 
 
